@@ -1,6 +1,7 @@
 # SJWaterWave
 
 一个圆形水波浪效果
+![image](https://github.com/sunsunsunJunn/SJWaterWave/blob/master/waterWave.gif) 
 
 创建显示并且一些属性
 
