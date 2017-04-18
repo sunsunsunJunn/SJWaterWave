@@ -75,7 +75,6 @@ static CGFloat const SJWaveX = 0;
          一个波峰、一个波谷，如果我们想在0到2π这个距离显示2个完整的波曲线，那么周期就是π。
          ω常量 _wavePalstance计算如下 可以根据自己的需求计算
          */
-        
         _wavePalstance = M_PI/self.bounds.size.width;
         //偏距
         _waveY = self.bounds.size.height;
