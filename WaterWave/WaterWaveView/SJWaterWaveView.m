@@ -70,6 +70,12 @@ static CGFloat const SJWaveX = 0;
         //振幅
         _waveAmplitude = SJWaveAmplitude;
         //角速度
+        /*
+         决定波的宽度和周期，比如，我们可以看到上面的例子中是一个周期的波曲线，
+         一个波峰、一个波谷，如果我们想在0到2π这个距离显示2个完整的波曲线，那么周期就是π。
+         ω常量 _wavePalstance计算如下 可以根据自己的需求计算
+         */
+        
         _wavePalstance = M_PI/self.bounds.size.width;
         //偏距
         _waveY = self.bounds.size.height;
